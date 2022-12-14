@@ -1,0 +1,19 @@
+Volume
+Litro - 1
+Mililitro - 1000
+Metro cubico - 0.001
+Copo americano - 4.16667
+Galao americano - 0.264172
+#
+Pressao
+Bar - 1
+Pascal - 100000
+Atmosfera - 0.986923
+Torr - 750.062
+#
+Comprimento
+Metro - 1
+Centrimetros - 100
+Quilômetro - 0.001
+Jarda - 1.09361
+Milha náutica - 0.000539957
