@@ -67,7 +67,7 @@ class TheApp:
         
         # Build GUI
         self.builder = Gtk.Builder()
-        self.builder.add_from_file('./execicio_glade.glade')
+        self.builder.add_from_file('./execicio_glade.glade.txt')
         # Get objects
         self.window = self.builder.get_object('window')
         # Cria uma array de duas colunas, a primeira para ser uma espécie de
@@ -92,9 +92,6 @@ class TheApp:
                 acum += 1
                 
         acum = 0
-        
-        print(combo_opt)
-        print()
         
         acum = 0
         for el in combo_opt[0]:
@@ -214,10 +211,6 @@ class TheApp:
         if tree_iter is not None:
             model = combo.get_model()
             unit = model[tree_iter][0]
-            
-            print(unit)
-            
-            print(combo_opt)
 
             liststore.clear()
             acum = 0
