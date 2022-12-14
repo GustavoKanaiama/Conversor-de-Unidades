@@ -15,7 +15,7 @@
           <object class="GtkLabel">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="label" translatable="yes">Conversor de Volume</property>
+            <property name="label" translatable="yes">Conversor de Unidades</property>
           </object>
           <packing>
             <property name="expand">False</property>

@@ -15,7 +15,7 @@ global mtx_conv
 global unit
 
 
-config_in = open('./aula12/config.txt', 'r')
+config_in = open('./config.txt', 'r')
 
 config_list = list(config_in.read().split('\n#\n'))
 
@@ -67,7 +67,7 @@ class TheApp:
         
         # Build GUI
         self.builder = Gtk.Builder()
-        self.builder.add_from_file('./aula12/execicio_glade.glade')
+        self.builder.add_from_file('./execicio_glade.glade')
         # Get objects
         self.window = self.builder.get_object('window')
         # Cria uma array de duas colunas, a primeira para ser uma espécie de
